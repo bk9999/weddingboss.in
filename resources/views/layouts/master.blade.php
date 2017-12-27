@@ -25,6 +25,7 @@
     @include('layouts.navbar')
 
     <div class="container">
+      @include('partials._messages')
       @yield('content')
     </div>
 
